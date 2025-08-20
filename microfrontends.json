@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "reown-appkit": {
+      "development": {
+        "fallback": "reown-appkit-delta.vercel.app"
+      }
+    },
+    "automatisch-appkit": {
+      "routing": [
+        {
+          "paths": [/* add paths here */]
+        }
+      ]
+    },
+    "next-js-app-router-server": {
+      "routing": [
+        {
+          "paths": [/* add paths here */]
+        }
+      ]
+    }
+  }
+}
